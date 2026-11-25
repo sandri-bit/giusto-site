@@ -15,6 +15,6 @@ Site estático, publicado na Vercel a partir da branch `main`.
 - Cada case é `cases/<slug>.html`, gerado por `python _fonte/gerar_cases.py` a partir de `_fonte/cases.json` (texto, números e blocos de imagem/vídeo). Não editar os HTML de `cases/` à mão: mudar o JSON e gerar de novo.
 - Estilo e efeitos compartilhados: `cases/case.css` e `cases/case.js` (mesma identidade da home).
 - Imagens em `img/cases/<slug>/` (.webp, lado maior até 2400 px); vídeos em `video/cases/<slug>/` (.mp4 H.264, até 30 s, com pôster .webp de mesmo nome).
-- Tipos de bloco: `title`, `full`, `duo`, `trio`, `mosaic`, `track` (desdobramento em faixa horizontal), `reels` (celular plano), `video`, `feed` (feed rolando num celular plano), `stats`, `quote`.
+- Tipos de bloco: `title`, `full`, `duo`, `trio`, `mosaic`, `track` (faixa horizontal, fora de uso), `reels` (celular plano), `video`, `feed` (carrossel que passa para o lado num celular plano), `screen` (apresentação passando num monitor de traço fino), `stats`, `quote`. Imagens aparecem sempre inteiras, sem corte.
 - Para publicar um case novo: incluir no JSON, rodar o gerador e ligar o card da home ao `cases/<slug>`.
 - `_fonte/` não vai para o site (`.vercelignore`).

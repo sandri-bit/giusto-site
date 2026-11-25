@@ -57,10 +57,10 @@ p{margin:0}
 .c-meta div{display:flex;flex-direction:column;gap:6px}
 .c-meta b{font-weight:500;font-size:16px}
 
-/* imagem de abertura: começa recortada e abre com a rolagem */
-.c-hero{margin-top:clamp(40px,5vw,72px);height:min(92svh,980px);display:grid;place-items:center;position:relative}
-.c-hero .frame{position:relative;width:var(--w,72%);height:var(--h,78%);border-radius:var(--hr,14px);overflow:hidden;background:var(--off);will-change:width,height}
-.c-hero img,.c-hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;scale:var(--s,1.12)}
+/* imagem de abertura: começa menor e cresce com a rolagem, sempre inteira (sem corte) */
+.c-hero{margin-top:clamp(40px,5vw,72px);display:grid;place-items:center;position:relative}
+.c-hero .frame{position:relative;width:min(var(--w,72%),calc(88svh * var(--har,16/9)));aspect-ratio:var(--har,16/9);border-radius:var(--hr,14px);overflow:hidden;background:var(--off);will-change:width}
+.c-hero img,.c-hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 
 /* texto do case */
 .c-story{padding-block:clamp(100px,12vw,180px)}
@@ -85,7 +85,8 @@ p{margin:0}
 .shot{border-radius:var(--r);overflow:hidden;background:var(--off);position:relative}
 .shot img,.shot video{width:100%;height:auto}
 .par{overflow:hidden;border-radius:var(--r);position:relative;background:var(--off)}
-.par img{width:100%;height:118%;object-fit:cover;position:absolute;left:0;top:-9%;will-change:transform}
+.par{will-change:transform}
+.par img{width:100%;height:100%;object-fit:cover;display:block}
 .full .par{aspect-ratio:var(--ar,16/9)}
 .full.bleed .par{border-radius:0}
 .duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
@@ -122,18 +123,32 @@ p{margin:0}
 .wide-video video{width:100%;height:100%;object-fit:cover}
 .wide-video .snd{position:absolute;right:16px;bottom:16px;width:40px;height:40px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font:500 11px var(--mono);cursor:pointer}
 /* posts de feed num celular plano */
-.feed{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
 .phone.feedp .scr{background:#fff;display:flex;flex-direction:column}
 .phone.feedp .bar-top{flex:none;height:52px;display:flex;align-items:flex-end;gap:8px;padding:0 14px 9px;font:600 13px var(--sans);color:#000;border-bottom:1px solid #eee;background:#fff;position:relative;z-index:2}
 .phone.feedp .bar-top i{width:22px;height:22px;border-radius:50%;background:var(--green);flex:none}
-.phone.feedp .vp{flex:1;overflow:hidden;position:relative}
-.phone.feedp .feed{display:flex;flex-direction:column;gap:14px;padding:12px 0;animation:feedroll var(--dur,30s) linear infinite}
-.phone.feedp .feed img{aspect-ratio:4/5;width:100%;height:auto;object-fit:cover}
-.phone.feedp:hover .feed{animation-play-state:paused}
-@keyframes feedroll{to{transform:translateY(-50%)}}
+/* carrossel (celular e monitor): passa para o lado, como no Instagram */
+.carr .vp{overflow:hidden;position:relative}
+.carr .strip{display:flex;transition:transform .8s cubic-bezier(.65,0,.25,1)}
+.carr .sl{flex:0 0 100%;display:grid;place-items:center;background:#fff}
+.carr .sl img{width:100%;height:100%;object-fit:contain}
+.phone.feedp .carr .vp{aspect-ratio:4/5}
+.dots{display:flex;justify-content:center;gap:5px;padding:10px 0}
+.dots i{width:6px;height:6px;border-radius:50%;background:#cfcfcf;transition:background .3s}
+.dots i.on{background:#0a84ff}
+.phone.feedp .ln{padding:4px 14px;display:flex;flex-direction:column;gap:7px}
+.phone.feedp .ln b{height:7px;border-radius:4px;background:#ececec;width:80%}
+.phone.feedp .ln b:first-child{width:36%;background:#dcdcdc}
+.phone.feedp .ln b:last-child{width:56%}
+/* apresentação num monitor de traço fino */
+.screen{max-width:1100px;margin-inline:auto}
+.screen .mon{border:2px solid var(--ink);border-radius:16px;padding:clamp(8px,1.1vw,14px);background:#fff;position:relative}
+.screen .mon .vp{aspect-ratio:16/9;border-radius:6px}
+.screen .mon::after{content:"";position:absolute;left:50%;bottom:-28px;width:16%;height:26px;transform:translateX(-50%);border:2px solid var(--ink);border-top:0;border-radius:0 0 4px 4px}
+.screen .foot{margin-top:46px;display:flex;justify-content:space-between;align-items:center;border-top:2px solid var(--ink);padding-top:14px;width:30%;margin-inline:auto}
+.screen .dots{padding:0}
+.screen .dots i.on{background:var(--ink)}
 .feed-side{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;flex:1;max-width:620px;align-self:center}
 .feed-side img{width:100%;height:auto;border-radius:8px}
-@media (prefers-reduced-motion:reduce){.phone.feedp .feed{animation:none}}
 @media (max-width:860px){.feed-side{display:none}}
 
 /* números */
@@ -166,7 +181,6 @@ footer a:hover{color:var(--ink)}
   .c-meta{grid-template-columns:repeat(2,minmax(0,1fr))}
   .c-story .lead{grid-column:1 / -1}
   .c-story .cols{grid-template-columns:1fr}
-  .c-hero{height:70svh}
   .duo,.trio{grid-template-columns:1fr}
   .duo.off>:nth-child(2),.trio>:nth-child(2){margin-top:0}
   .reels{justify-content:flex-start;overflow-x:auto;padding-inline:var(--gl);scroll-snap-type:x mandatory;margin-inline:calc(var(--gl) * -1)}
@@ -178,5 +192,6 @@ footer a:hover{color:var(--ink)}
 }
 @media (prefers-reduced-motion:reduce){
   .rv{translate:0 0;opacity:1;transition:none}
-  .c-hero .frame{--w:100%!important;--h:100%!important}
+  .c-hero .frame{--w:100%!important}
+  .carr .strip{transition:none}
 }

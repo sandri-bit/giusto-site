@@ -53,24 +53,27 @@
      "alt": "KV da campanha Virada de Chave"
     },
     {
-     "t": "track",
-     "lbl": "Desdobramento",
+     "t": "reels",
+     "lbl": "Telas do estande",
+     "h": "Animações para o estande",
+     "txt": "Conteúdo para as TVs dos empreendimentos e para a tela do comercial, além dos vídeos para as redes.",
      "items": [
-      "img/cases/virada-de-chave/kv-vertical.webp",
-      "img/cases/virada-de-chave/convite.webp",
-      "img/cases/virada-de-chave/card-comercial.webp",
-      "img/cases/virada-de-chave/leque.webp",
-      "img/cases/virada-de-chave/regras.webp",
-      "img/cases/virada-de-chave/painel-3d.webp"
+      "video/cases/virada-de-chave/tv-livy.mp4",
+      "video/cases/virada-de-chave/reels.mp4",
+      "video/cases/virada-de-chave/tv-vertsoul.mp4"
      ]
     },
     {
-     "t": "reels",
-     "lbl": "Vídeo",
-     "h": "Direto do estande",
-     "txt": "Conteúdo gravado na feira para levar as condições a quem ainda não tinha passado por lá.",
+     "t": "duo",
      "items": [
-      "video/cases/virada-de-chave/reels.mp4"
+      {
+       "src": "video/cases/virada-de-chave/tela-comercial.mp4",
+       "cap": "Animação da tela do comercial com as condições de cada empreendimento"
+      },
+      {
+       "src": "img/cases/virada-de-chave/equipe.webp",
+       "cap": "A equipe da C2B e da Giusto no estande"
+      }
      ]
     },
     {
@@ -170,8 +173,10 @@
      "text": "Votos em 463 municípios, contra 439 em 2022, e crescimento em 315 cidades."
     },
     {
-     "t": "track",
+     "t": "feed",
      "lbl": "Os números",
+     "h": "Do alcance ao voto",
+     "perfil": "giusto.ag",
      "items": [
       "img/cases/nadine/dados-1.webp",
       "img/cases/nadine/dados-3.webp",
@@ -179,7 +184,8 @@
       "img/cases/nadine/dados-5.webp",
       "img/cases/nadine/dados-6.webp",
       "img/cases/nadine/dados-7.webp"
-     ]
+     ],
+     "txt": "O resultado da campanha contado em carrossel."
     },
     {
      "t": "quote",
@@ -293,53 +299,19 @@
      ]
     },
     {
-     "t": "full",
-     "src": "img/cases/pao-e-vinho/id-2.webp",
-     "alt": "Paleta de cores da Rota do Pão e Vinho"
-    },
-    {
-     "t": "duo",
-     "off": false,
-     "items": [
-      "img/cases/pao-e-vinho/id-3.webp",
-      "img/cases/pao-e-vinho/id-4.webp"
-     ]
-    },
-    {
-     "t": "track",
-     "lbl": "Padrões",
-     "items": [
-      "img/cases/pao-e-vinho/vetor-5.webp",
-      "img/cases/pao-e-vinho/vetor-6.webp",
-      "img/cases/pao-e-vinho/vetor-7.webp",
-      "img/cases/pao-e-vinho/vetor-8.webp"
-     ]
-    },
-    {
-     "t": "title",
+     "t": "screen",
      "lbl": "Apresentação",
      "h": "Cidade por cidade, o caminho inteiro",
-     "text": "A apresentação percorre os municípios da rota e mostra por que a pavimentação importa para turismo, economia e resiliência depois das enchentes."
-    },
-    {
-     "t": "track",
-     "lbl": "Apresentação",
      "items": [
       "img/cases/pao-e-vinho/apres-02.webp",
       "img/cases/pao-e-vinho/apres-03.webp",
       "img/cases/pao-e-vinho/apres-06.webp",
-      "img/cases/pao-e-vinho/apres-07.webp",
-      "img/cases/pao-e-vinho/apres-08.webp",
       "img/cases/pao-e-vinho/apres-11.webp",
-      "img/cases/pao-e-vinho/apres-12.webp",
       "img/cases/pao-e-vinho/apres-13.webp",
-      "img/cases/pao-e-vinho/apres-14.webp"
-     ]
-    },
-    {
-     "t": "full",
-     "src": "img/cases/pao-e-vinho/apres-17.webp",
-     "alt": "Assinatura: pavimentar o progresso, celebrar a tradição"
+      "img/cases/pao-e-vinho/apres-14.webp",
+      "img/cases/pao-e-vinho/apres-17.webp"
+     ],
+     "txt": "A apresentação percorre os municípios da rota e mostra por que a pavimentação importa para turismo, economia e resiliência depois das enchentes."
     },
     {
      "t": "quote",
@@ -531,14 +503,15 @@
      ]
     },
     {
-     "t": "track",
-     "lbl": "Desdobramento",
+     "t": "feed",
+     "lbl": "Redes sociais",
+     "h": "A Copa no feed",
+     "perfil": "cron.oncologia",
      "items": [
       "img/cases/cron-movimento/kv-copa.webp",
       "img/cases/cron-movimento/inscritos.webp",
       "img/cases/cron-movimento/drinks.webp",
-      "img/cases/cron-movimento/corre.webp",
-      "img/cases/cron-movimento/placas.webp"
+      "img/cases/cron-movimento/corre.webp"
      ]
     },
     {
@@ -609,29 +582,15 @@
     },
     {
      "t": "duo",
-     "off": false,
      "items": [
-      "img/cases/maharo/proposta-17.webp",
-      "img/cases/maharo/proposta-18.webp"
-     ]
-    },
-    {
-     "t": "trio",
-     "items": [
-      "img/cases/maharo/proposta-24.webp",
-      "img/cases/maharo/proposta-25.webp",
-      "img/cases/maharo/proposta-26.webp"
-     ]
-    },
-    {
-     "t": "track",
-     "lbl": "Aplicações",
-     "items": [
-      "img/cases/maharo/proposta-35.webp",
-      "img/cases/maharo/proposta-36.webp",
       "img/cases/maharo/proposta-37.webp",
-      "img/cases/maharo/proposta-38.webp"
+      "img/cases/maharo/proposta-36.webp"
      ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/maharo/proposta-38.webp",
+     "alt": "Site da Maharo no computador e no celular"
     },
     {
      "t": "feed",
@@ -645,11 +604,6 @@
       "img/cases/maharo/feed-4.webp",
       "img/cases/maharo/feed-5.webp"
      ]
-    },
-    {
-     "t": "full",
-     "src": "img/cases/maharo/miv-2.webp",
-     "alt": "Manual de identidade visual da Maharo"
     },
     {
      "t": "quote",
@@ -727,15 +681,11 @@
      "alt": "Bandeira Lucchese 15386"
     },
     {
-     "t": "track",
-     "lbl": "Desdobramento",
+     "t": "trio",
      "items": [
       "img/cases/lucchese/oficial.webp",
       "img/cases/lucchese/santinho.webp",
-      "img/cases/lucchese/colinha.webp",
-      "img/cases/lucchese/id-3.webp",
-      "img/cases/lucchese/id-4.webp",
-      "img/cases/lucchese/id-5.webp"
+      "img/cases/lucchese/id-4.webp"
      ]
     },
     {
@@ -797,14 +747,14 @@
      "alt": "Peça da campanha com criança no balanço"
     },
     {
-     "t": "track",
+     "t": "screen",
      "lbl": "Identidade",
+     "h": "Uma linguagem só da C2B",
      "items": [
       "img/cases/a-vida-e-boa/deck-13.webp",
       "img/cases/a-vida-e-boa/deck-24.webp",
       "img/cases/a-vida-e-boa/deck-26.webp",
       "img/cases/a-vida-e-boa/deck-29.webp",
-      "img/cases/a-vida-e-boa/deck-15.webp",
       "img/cases/a-vida-e-boa/deck-23.webp"
      ]
     },
@@ -892,8 +842,9 @@
      "ar": "16/9"
     },
     {
-     "t": "track",
+     "t": "screen",
      "lbl": "Temporada 2025",
+     "h": "Cards para cada momento do jogo",
      "items": [
       "img/cases/alaf/apres-06.webp",
       "img/cases/alaf/apres-07.webp",

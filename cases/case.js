@@ -30,8 +30,18 @@
     v.muted=!on; b.textContent=on?'■':'♪'; if(on) v.play().catch(()=>{});
   }));
 
+  /* carrosséis: passam sozinhos para o lado enquanto estão na tela; clique avança */
+  $$('.carr').forEach(c=>{
+    const strip=$('.strip',c), n=+c.dataset.n, box=c.closest('.screen')||c;
+    const dots=$$('.dots i',box), cnt=$('.cnt',box); let i=0, vis=false;
+    const go=k=>{ i=(k+n)%n; strip.style.transform=`translate3d(${-i*100}%,0,0)`; dots.forEach((d,j)=>d.classList.toggle('on',j===i)); if(cnt) cnt.textContent=`${String(i+1).padStart(2,'0')} / ${String(n).padStart(2,'0')}`; };
+    go(0); c.style.cursor='pointer'; c.addEventListener('click',()=>go(i+1));
+    if('IntersectionObserver' in window) new IntersectionObserver(es=>{vis=es[0].isIntersecting;},{threshold:.4}).observe(c);
+    setInterval(()=>{ if(vis && !document.hidden) go(i+1); },2800);
+  });
+
   const hero=$('.c-hero'), frame=hero&&$('.frame',hero);
-  const pars=$$('.par img'), tracks=$$('.track'), phones=$$('[data-drift]'), bar=$('.progress');
+  const pars=$$('.par'), tracks=$$('.track'), phones=$$('[data-drift]'), bar=$('.progress');
 
   function frameTick(){
     const vh=innerHeight, y=scrollY;
@@ -41,15 +51,13 @@
       const p=clamp(1-(r.top+r.height*0.35)/vh,0,1);
       const mob=innerWidth<860;
       frame.style.setProperty('--w',`${(mob?86:68)+p*(100-(mob?86:68))}%`);
-      frame.style.setProperty('--h',`${(mob?82:76)+p*(100-(mob?82:76))}%`);
       frame.style.setProperty('--hr',`${14*(1-p)}px`);
-      frame.style.setProperty('--s',`${1.12-p*0.12}`);
     }
-    if(!reduce) pars.forEach(img=>{
-      const r=img.parentElement.getBoundingClientRect();
+    if(!reduce) pars.forEach(el=>{
+      const r=el.parentElement.getBoundingClientRect();
       if(r.bottom<0||r.top>vh) return;
       const p=(r.top+r.height/2-vh/2)/(vh+r.height);
-      img.style.transform=`translate3d(0,${p*-14}%,0)`;
+      el.style.transform=`translate3d(0,${p*-60}px,0)`;
     });
     tracks.forEach(t=>{
       const row=$('.row',t), r=t.getBoundingClientRect();

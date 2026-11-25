@@ -2,7 +2,7 @@
 
 Uso: python _fonte/gerar_cases.py   (rodar na raiz do repositório)
 Cada case tem cabeçalho, texto, blocos de imagem/vídeo e o link para o próximo case.
-Tipos de bloco: title, full, duo, trio, mosaic, track, reels, video, feed, stats, quote.
+Tipos de bloco: title, full, duo, trio, mosaic, track, reels, video, feed (carrossel num celular), screen (apresentação num monitor), stats, quote.
 """
 import json, html, os, sys
 from PIL import Image
@@ -92,12 +92,21 @@ def block(b):
         return (f'<section class="blk"><div class="wrap"><div class="wide-video rv"{ar}><video src="../{e(b["src"])}"{poster} muted loop playsinline preload="metadata" data-auto></video>'
                 f'<button class="snd" type="button" aria-label="Ligar ou desligar o som">♪</button></div></div></section>')
     if t == 'feed':
-        posts = ''.join(img(s, '') for s in b['items'])
+        n = len(b['items'])
+        slides = ''.join(f'<div class="sl">{img(s, "")}</div>' for s in b['items'])
+        dots = ''.join('<i></i>' for _ in b['items'])
         side = ''.join(img(s, '') for s in b['items'][:6])
         head = f'<div class="blk-title"><div><div class="lbl dotted" style="margin-bottom:18px">{e(b.get("lbl", "Redes sociais"))}</div><h2>{e(b.get("h", "No feed"))}</h2></div>{f"<p>{e(b[chr(116)+chr(120)+chr(116)])}</p>" if b.get("txt") else ""}</div>'
         return (f'<section class="dark"><div class="wrap">{head}<div class="reels" style="align-items:center"><div class="phone feedp" data-drift="-30"><div class="scr">'
-                f'<div class="bar-top"><i></i>{e(b.get("perfil", ""))}</div><div class="vp"><div class="feed" style="--dur:{len(b["items"]) * 5}s">{posts}{posts}</div></div></div></div>'
+                f'<div class="bar-top"><i></i>{e(b.get("perfil", ""))}</div><div class="carr" data-n="{n}"><div class="vp"><div class="strip">{slides}</div></div><div class="dots">{dots}</div></div>'
+                f'<div class="ln"><b></b><b></b><b></b></div></div></div>'
                 f'<div class="feed-side rv">{side}</div></div></div></section>')
+    if t == 'screen':
+        n = len(b['items'])
+        slides = ''.join(f'<div class="sl">{img(s, "")}</div>' for s in b['items'])
+        head = f'<div class="blk-title"><div><div class="lbl dotted rv" style="margin-bottom:18px">{e(b.get("lbl", "Apresentação"))}</div><h2 class="rv">{e(b.get("h", ""))}</h2></div>{f"<p class=rv>{e(b[chr(116)+chr(120)+chr(116)])}</p>" if b.get("txt") else ""}</div>'
+        return (f'<section class="blk"><div class="wrap">{head}<div class="screen rv"><div class="mon carr" data-n="{n}"><div class="vp"><div class="strip">{slides}</div></div></div>'
+                f'<div class="foot"><span class="dots">{"".join("<i></i>" for _ in b["items"])}</span><span class="lbl cnt">01 / {n:02d}</span></div></div></div></section>')
     if t == 'stats':
         its = ''.join(f'<div class="rv"><b>{e(s["n"])}{f"<sup>{e(s[chr(117)])}</sup>" if s.get("u") else ""}</b><span>{e(s["l"])}</span></div>' for s in b['items'])
         return f'<section class="blk"><div class="wrap" style="margin-top:clamp(70px,9vw,140px)"><div class="lbl dotted rv" style="margin-bottom:28px">{e(b.get("lbl", "Resultado"))}</div><div class="stats" style="--n:{len(b["items"])}">{its}</div></div></section>'
@@ -161,7 +170,7 @@ TPL = '''<!doctype html>
     </div>
   </div></section>
 
-  <section class="c-hero" aria-label="Imagem principal"><div class="frame">{hero}</div></section>
+  <section class="c-hero" aria-label="Imagem principal" style="--har:{har}"><div class="frame">{hero}</div></section>
 
   <section class="c-story"><div class="wrap"><div class="grid">
     <p class="lead">{lead}</p>
@@ -202,11 +211,13 @@ def main():
         n = cases[(i + 1) % len(cases)]
         cols = '\n'.join(f'      <div class="rv"><h3>{e(k)}</h3><p>{e(v)}</p>{"" if k != c["cols"][-1][0] or not c.get("tags") else "<div class=tags>" + "".join(f"<span>{e(t)}</span>" for t in c["tags"]) + "</div>"}</div>' for k, v in c['cols'])
         hero = c['hero']
+        wh = size(hero) or (16, 9)
+        har = f'{wh[0]}/{wh[1]}'
         hero_html = (f'<video src="../{e(hero)}" poster="../{e(c.get("hero_poster", ""))}" muted loop playsinline autoplay data-auto></video>'
                      if hero.endswith('.mp4') else img(hero, c.get('hero_alt', c['title']), lazy=False))
         page = TPL.format(
             title=e(c['title']), desc=e(c['desc']), slug=e(c['slug']), client=e(c['client']), cover=e(c['cover']),
-            cat=e(c['cat']), year=e(c['year']), scope=e(c['scope']), hero=hero_html, lead=e(c['lead']), cols=cols,
+            cat=e(c['cat']), year=e(c['year']), scope=e(c['scope']), hero=hero_html, har=har, lead=e(c['lead']), cols=cols,
             blocks='\n'.join(block(b) for b in c['blocks']),
             nslug=e(n['slug']), nclient=e(n['client']), ntitle=e(n['title']), nimg=img(n['cover'], n['title']))
         open(os.path.join(ROOT, 'cases', c['slug'] + '.html'), 'w', encoding='utf-8').write(page)
