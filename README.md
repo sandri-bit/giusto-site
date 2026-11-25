@@ -7,7 +7,7 @@ Site estático, publicado na Vercel a partir da branch `main`.
 - Contato só por WhatsApp (sem formulário).
 
 ## Ajustes feitos para publicar (refazer ao trazer uma nova versão do artifact)
-1. Cabeçalho completo no topo do `index.html`: título, descrição, favicon, prévia de compartilhamento (`img/og.jpg`).
+1. Cabeçalho completo no topo do `index.html`: título, descrição, favicon, prévia de compartilhamento (`img/og-capa.jpg`).
 2. Linha `<meta name="claude:...">` e o `<title>` "Giusto Proposta 2" removidos.
 3. Bloco `<style>` "Ajustes do site publicado": cards com página própria levam a `cases/<slug>`; card com classe `off` (hoje, Vida de Sorte) fica sem clique. O aviso "Nesta proposta..." foi retirado do script.
 
