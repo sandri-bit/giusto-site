@@ -133,7 +133,9 @@ TPL = '''<!doctype html>
 <meta property="og:title" content="{title} · {client}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="https://giusto.ag/cases/{slug}">
-<meta property="og:image" content="https://giusto.ag/{cover}">
+<meta property="og:image" content="https://giusto.ag/img/og/{slug}.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
