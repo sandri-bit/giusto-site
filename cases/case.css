@@ -123,9 +123,11 @@ p{margin:0}
 .wide-video video{width:100%;height:100%;object-fit:cover}
 .wide-video .snd{position:absolute;right:16px;bottom:16px;width:40px;height:40px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font:500 11px var(--mono);cursor:pointer}
 /* posts de feed num celular plano */
-.phone.feedp .scr{background:#fff;display:flex;flex-direction:column}
-.phone.feedp .bar-top{flex:none;height:52px;display:flex;align-items:flex-end;gap:8px;padding:0 14px 9px;font:600 13px var(--sans);color:#000;border-bottom:1px solid #eee;background:#fff;position:relative;z-index:2}
-.phone.feedp .bar-top i{width:22px;height:22px;border-radius:50%;background:var(--green);flex:none}
+.phone.feedp .scr{background:#fff;display:flex;flex-direction:column;justify-content:center}
+.phone.feedp .bar-top{flex:none;display:flex;align-items:center;gap:10px;padding:0 14px 12px;font:600 13px var(--sans);color:#000}
+.phone.feedp .bar-top i{width:32px;height:32px;border-radius:50%;background:var(--green);flex:none;display:grid;place-items:center;font:600 13px var(--sans);font-style:normal;color:#000}
+.phone.feedp .bar-top span{display:flex;flex-direction:column;line-height:1.2}
+.phone.feedp .bar-top small{font:400 11px var(--mono);color:var(--grey-2);text-transform:uppercase;letter-spacing:.04em}
 /* carrossel (celular e monitor): passa para o lado, como no Instagram */
 .carr .vp{overflow:hidden;position:relative}
 .carr .strip{display:flex;transition:transform .8s cubic-bezier(.65,0,.25,1)}

@@ -98,7 +98,7 @@ def block(b):
         side = ''.join(img(s, '') for s in b['items'][:6])
         head = f'<div class="blk-title"><div><div class="lbl dotted" style="margin-bottom:18px">{e(b.get("lbl", "Redes sociais"))}</div><h2>{e(b.get("h", "No feed"))}</h2></div>{f"<p>{e(b[chr(116)+chr(120)+chr(116)])}</p>" if b.get("txt") else ""}</div>'
         return (f'<section class="dark"><div class="wrap">{head}<div class="reels" style="align-items:center"><div class="phone feedp" data-drift="-30"><div class="scr">'
-                f'<div class="bar-top"><i></i>{e(b.get("perfil", ""))}</div><div class="carr" data-n="{n}"><div class="vp"><div class="strip">{slides}</div></div><div class="dots">{dots}</div></div>'
+                f'<div class="bar-top"><i>{e(b.get("perfil", " ")[0].upper())}</i><span>@{e(b.get("perfil", ""))}<small>Publicação</small></span></div><div class="carr" data-n="{n}"><div class="vp"><div class="strip">{slides}</div></div><div class="dots">{dots}</div></div>'
                 f'<div class="ln"><b></b><b></b><b></b></div></div></div>'
                 f'<div class="feed-side rv">{side}</div></div></div></section>')
     if t == 'screen':
