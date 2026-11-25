@@ -20,9 +20,10 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <style>
-/* Ajustes do site publicado (fora do artifact): cases só para visualização */
-.card{cursor:default}
-.card .img .view,.feature [data-soon],.svc .ar{display:none!important}
+/* Ajustes do site publicado (fora do artifact): cases com página própria (cases/); Vida de Sorte ainda sem clique */
+.card.off{cursor:default}
+.card.off .img .view,.svc .ar{display:none!important}
+.card.off:hover .img img{transform:none}
 .svc{cursor:default}
 /* Central do Cliente (central.giusto.ag) */
 .pill .cc{display:flex;align-items:center;gap:7px;padding:9px 12px;margin-left:2px;border-radius:10px;border:1px solid rgba(255,255,255,.16);font-size:14px;color:#fff;white-space:nowrap;transition:background .2s,border-color .2s}
@@ -89,7 +90,9 @@ h1,h2,h3{margin:0;font-weight:300;text-wrap:balance}
 /* ---------- hero ---------- */
 .hero{position:relative;height:min(100svh,1000px);min-height:620px;overflow:hidden;background:#1a1a1a;color:#fff}
 .hero .photo{position:absolute;inset:0;transform-origin:50% 40%}
-.hero .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.hero .photo picture{display:block;width:100%;height:100%}
+.hero .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 17%}
+@media (min-aspect-ratio:1/1){.hero .photo img{object-position:50% 30%}}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 55%,rgba(0,0,0,.45) 100%);pointer-events:none}
 .hero .mark{position:absolute;left:0;right:0;bottom:0;z-index:3;padding-left:var(--gl);padding-right:var(--gr);padding-bottom:clamp(18px,2.2vw,34px)}
 .hero .mark img{width:100%;height:auto}
@@ -245,7 +248,7 @@ h1,h2,h3{margin:0;font-weight:300;text-wrap:balance}
 .faces{display:flex}
 .faces span{width:68px;height:68px;border-radius:50%;overflow:hidden;border:2px solid var(--night);background:#222}
 .faces span+span{margin-left:-14px}
-.faces img{width:100%;height:100%;object-fit:cover;object-position:50% 0;scale:1.9;transform-origin:50% 8%;filter:grayscale(1)}
+.faces img{width:100%;height:100%;object-fit:cover;object-position:50% 0;scale:2.3;transform-origin:50% 38%;filter:grayscale(1)}
 .flow-people .tags{display:flex;flex-wrap:wrap;gap:6px}
 .flow-people .tags span{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.04em;border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:5px 9px;color:rgba(255,255,255,.8)}
 .ai-flow+.ai-grid{margin-top:16px}
@@ -410,7 +413,7 @@ footer a:hover{color:var(--ink)}
 <main>
   <!-- HERO -->
   <section class="hero" id="topo" aria-label="Giusto">
-    <div class="photo" id="heroPhoto"><img src="img/hero-socios.webp" alt="Os três sócios da Giusto em frente a um prédio de vidro, em preto e branco"></div>
+    <div class="photo" id="heroPhoto"><picture><source media="(min-aspect-ratio: 1/1)" srcset="img/hero-socios-largo.webp"><img src="img/hero-socios.webp" alt="Os três sócios da Giusto em estúdio, dois em pé de blazer azul e um sentado numa poltrona verde"></picture></div>
     <div class="mark" id="heroMark"><img src="img/logo-neg-xl.png" alt="giusto."><div class="tagline"><span>Marca · Campanha · Digital · Reputação · IA</span><span>O mundo é dos justos</span></div></div>
   </section>
 
@@ -438,22 +441,22 @@ footer a:hover{color:var(--ink)}
     </div>
     <div class="cols3" id="cols3">
       <div class="col" data-k="0.04">
-        <a class="card rv" href="#" data-cat="campanha evento"><div class="img"><img src="img/virada26-capa.webp" alt="KV da campanha Virada de Chave, Aqui você consegue, da C2B na Expovale 2026" width="1800" height="1013" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Virada de Chave</h3><div class="who">C2B Incorporadora · Expovale</div></div><span class="yr">2026</span></div></a>
-        <a class="card rv" href="#" data-cat="politica"><div class="img"><img src="img/nadine-capa.webp" alt="Delegada Nadine segurando cartaz de agradecimento pelos 55.223 votos" width="1500" height="1396" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Delegada Nadine</h3><div class="who">Reeleita, a mais votada do PSD</div></div><span class="yr">2026</span></div></a>
-        <a class="card rv" href="#" data-cat="evento"><div class="img"><img src="img/cvc-capa.webp" alt="Loja CVC inaugurada no Shopping Lajeado" width="1400" height="1377" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Inauguração CVC</h3><div class="who">CVC RS Shopping Lajeado</div></div><span class="yr">Evento</span></div></a>
-        <a class="card rv" href="#" data-cat="branding"><div class="img"><img src="img/paovinho-capa.webp" alt="Marca Rota do Pão e Vinho" width="1400" height="1400" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Rota do Pão e Vinho</h3><div class="who">AMAT</div></div><span class="yr">Branding</span></div></a>
+        <a class="card rv" href="cases/virada-de-chave" data-cat="campanha evento"><div class="img"><img src="img/virada26-capa.webp" alt="KV da campanha Virada de Chave, Aqui você consegue, da C2B na Expovale 2026" width="1800" height="1013" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Virada de Chave</h3><div class="who">C2B Incorporadora · Expovale</div></div><span class="yr">2026</span></div></a>
+        <a class="card rv" href="cases/nadine" data-cat="politica"><div class="img"><img src="img/nadine-capa.webp" alt="Delegada Nadine segurando cartaz de agradecimento pelos 55.223 votos" width="1500" height="1396" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Delegada Nadine</h3><div class="who">Reeleita, a mais votada do PSD</div></div><span class="yr">2026</span></div></a>
+        <a class="card rv" href="cases/cvc" data-cat="evento"><div class="img"><img src="img/cvc-capa.webp" alt="Loja CVC inaugurada no Shopping Lajeado" width="1400" height="1377" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Inauguração CVC</h3><div class="who">CVC RS Shopping Lajeado</div></div><span class="yr">Evento</span></div></a>
+        <a class="card rv" href="cases/pao-e-vinho" data-cat="branding"><div class="img"><img src="img/paovinho-capa.webp" alt="Marca Rota do Pão e Vinho" width="1400" height="1400" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Rota do Pão e Vinho</h3><div class="who">AMAT</div></div><span class="yr">Branding</span></div></a>
       </div>
       <div class="col mid" data-k="-0.08">
-        <a class="card rv" href="#" data-cat="campanha"><div class="img"><img src="img/cronmama-capa.webp" alt="Peça da campanha do Centro de Referência da Mama da CRON: o tempo conta, descobrir cedo faz toda a diferença" width="1500" height="1420" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Centro de Referência da Mama</h3><div class="who">CRON, Centro de Oncologia</div></div><span class="yr">2026</span></div></a>
-        <a class="card rv" href="#" data-cat="campanha evento"><div class="img"><img src="img/cron-capa.webp" alt="Atleta de beach tennis no evento da CRON" width="1400" height="1400" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Viva Plenamente em Movimento</h3><div class="who">CRON, Centro de Oncologia</div></div><span class="yr">Evento</span></div></a>
-        <a class="card rv" href="#" data-cat="campanha"><div class="img"><img src="img/vidadesorte27-capa.webp" alt="Marca 3D da Vida de Sorte com trevos sobre fundo amarelo" width="1600" height="900" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Vida de Sorte</h3><div class="who">Grupo Independente</div></div><span class="yr">2026/27</span></div></a>
-        <a class="card rv" href="#" data-cat="branding"><div class="img"><img src="img/maharo-capa.webp" alt="Papelaria da marca Maharo" width="1400" height="1400" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Identidade Maharo</h3><div class="who">Maharo</div></div><span class="yr">Branding</span></div></a>
+        <a class="card rv" href="cases/cron-mama" data-cat="campanha"><div class="img"><img src="img/cronmama-capa.webp" alt="Peça da campanha do Centro de Referência da Mama da CRON: o tempo conta, descobrir cedo faz toda a diferença" width="1500" height="1420" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Centro de Referência da Mama</h3><div class="who">CRON, Centro de Oncologia</div></div><span class="yr">2026</span></div></a>
+        <a class="card rv" href="cases/cron-movimento" data-cat="campanha evento"><div class="img"><img src="img/cron-capa.webp" alt="Atleta de beach tennis no evento da CRON" width="1400" height="1400" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Viva Plenamente em Movimento</h3><div class="who">CRON, Centro de Oncologia</div></div><span class="yr">Evento</span></div></a>
+        <a class="card rv off" href="#" aria-disabled="true" tabindex="-1" data-cat="campanha"><div class="img"><img src="img/vidadesorte27-capa.webp" alt="Marca 3D da Vida de Sorte com trevos sobre fundo amarelo" width="1600" height="900" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Vida de Sorte</h3><div class="who">Grupo Independente</div></div><span class="yr">2026/27</span></div></a>
+        <a class="card rv" href="cases/maharo" data-cat="branding"><div class="img"><img src="img/maharo-capa.webp" alt="Papelaria da marca Maharo" width="1400" height="1400" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Identidade Maharo</h3><div class="who">Maharo</div></div><span class="yr">Branding</span></div></a>
       </div>
       <div class="col" data-k="0.1">
-        <a class="card rv" href="#" data-cat="politica"><div class="img"><img src="img/lucchese-capa.webp" alt="Roberto Lucchese com a bandeira do Rio Grande do Sul e um capacete de obra" width="1080" height="1440" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Roberto Lucchese</h3><div class="who">O mais votado do MDB</div></div><span class="yr">2026</span></div></a>
-        <a class="card rv" href="#" data-cat="campanha"><div class="img"><img src="img/avidaeboa-capa.webp" alt="Outdoor A vida é boa no meu C2B instalado na rua" width="1800" height="864" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>A vida é boa no meu C2B</h3><div class="who">C2B Incorporadora</div></div><span class="yr">2025</span></div></a>
-        <a class="card rv" href="#" data-cat="branding campanha"><div class="img"><img src="img/alaf-capa.webp" alt="Torcedor vestindo a camisa da ALAF" width="1400" height="1400" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>O Time do Vale</h3><div class="who">ALAF</div></div><span class="yr">Branding</span></div></a>
-        <a class="card rv" href="#" data-cat="evento"><div class="img"><img src="img/mucum-capa.webp" alt="Equipe reunida no palco da ExpoMuçum" width="1800" height="1350" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>A Feira da Reconstrução</h3><div class="who">CDL Muçum</div></div><span class="yr">Evento</span></div></a>
+        <a class="card rv" href="cases/lucchese" data-cat="politica"><div class="img"><img src="img/lucchese-capa.webp" alt="Roberto Lucchese com a bandeira do Rio Grande do Sul e um capacete de obra" width="1080" height="1440" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>Roberto Lucchese</h3><div class="who">O mais votado do MDB</div></div><span class="yr">2026</span></div></a>
+        <a class="card rv" href="cases/a-vida-e-boa" data-cat="campanha"><div class="img"><img src="img/avidaeboa-capa.webp" alt="Outdoor A vida é boa no meu C2B instalado na rua" width="1800" height="864" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>A vida é boa no meu C2B</h3><div class="who">C2B Incorporadora</div></div><span class="yr">2025</span></div></a>
+        <a class="card rv" href="cases/alaf" data-cat="branding campanha"><div class="img"><img src="img/alaf-capa.webp" alt="Torcedor vestindo a camisa da ALAF" width="1400" height="1400" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>O Time do Vale</h3><div class="who">ALAF</div></div><span class="yr">Branding</span></div></a>
+        <a class="card rv" href="cases/expomucum" data-cat="evento"><div class="img"><img src="img/mucum-capa.webp" alt="Equipe reunida no palco da ExpoMuçum" width="1800" height="1350" loading="lazy"><span class="view">Ver case →</span></div><div class="cap"><div><h3>A Feira da Reconstrução</h3><div class="who">CDL Muçum</div></div><span class="yr">Evento</span></div></a>
       </div>
     </div>
   </section>
@@ -481,7 +484,7 @@ footer a:hover{color:var(--ink)}
         <img src="img/cron-wide.webp" alt="Atleta comemorando ponto em torneio de beach tennis da CRON">
         <div class="over">
           <div><div class="lbl">Case em destaque · CRON</div><h3>Viva Plenamente em Movimento</h3></div>
-          <a class="ul" href="#" data-soon>Ver case →</a>
+          <a class="ul" href="cases/cron-movimento">Ver case →</a>
         </div>
       </div>
       <span class="side r" id="sideR">Resultado de verdade.</span>
@@ -576,9 +579,9 @@ footer a:hover{color:var(--ink)}
       </div>
       <ol class="steps rv"><li><b>01</b>Primeiro contato</li><li><b>02</b>Diagnóstico e planejamento</li><li><b>03</b>Criação e execução</li><li><b>04</b>Acompanhamento e resultado</li></ol>
       <div class="p-grid">
-        <figure class="rv"><div class="ph"><img src="img/socio-a.webp" alt="Giovani Marasca, sócio da Giusto, retrato em preto e branco" loading="lazy"></div><figcaption><b>Giovani Marasca</b><span>Sócio · Diretor de Estratégia e Planejamento</span><small>Mais de 15 anos entre o varejo e a comunicação pública.</small></figcaption></figure>
-        <figure class="rv"><div class="ph"><img src="img/socio-c.webp" alt="Douglas Sandri, sócio da Giusto, retrato em preto e branco" loading="lazy"></div><figcaption><b>Douglas Sandri</b><span>Sócio · Diretor de Negócios / Atendimento</span><small>15 anos de campanhas eleitorais.</small></figcaption></figure>
-        <figure class="rv"><div class="ph"><img src="img/socio-b.webp" alt="Dan Cristian, sócio da Giusto, retrato em preto e branco" loading="lazy"></div><figcaption><b>Dan Cristian</b><span>Sócio · Diretor de Criação</span><small>Mais de 20 anos de comunicação, 15 deles em agências.</small></figcaption></figure>
+        <figure class="rv"><div class="ph"><img src="img/socio-a.webp" alt="Giovani Marasca, sócio da Giusto, retrato em estúdio" loading="lazy"></div><figcaption><b>Giovani Marasca</b><span>Sócio · Diretor de Estratégia e Planejamento</span><small>Mais de 15 anos entre o varejo e a comunicação pública.</small></figcaption></figure>
+        <figure class="rv"><div class="ph"><img src="img/socio-c.webp" alt="Douglas Sandri, sócio da Giusto, retrato em estúdio" loading="lazy"></div><figcaption><b>Douglas Sandri</b><span>Sócio · Diretor de Negócios / Atendimento</span><small>15 anos de campanhas eleitorais.</small></figcaption></figure>
+        <figure class="rv"><div class="ph"><img src="img/socio-b.webp" alt="Dan Cristian, sócio da Giusto, retrato em estúdio" loading="lazy"></div><figcaption><b>Dan Cristian</b><span>Sócio · Diretor de Criação</span><small>Mais de 20 anos de comunicação, 15 deles em agências.</small></figcaption></figure>
       </div>
     </div>
   </section>
@@ -633,7 +636,7 @@ footer a:hover{color:var(--ink)}
   /* aviso de cases ainda não montados */
   const toast=$('#toast'); let tt;
   function say(m){toast.textContent=m;toast.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove('show'),2400);}
-  $$('.card,[data-soon]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();/* site: cases só para visualização por enquanto */}));
+  $$('.card.off,[data-soon]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();/* Vida de Sorte e serviços: ainda sem página */}));
 
   /* filtros */
   $$('.chips button').forEach(b=>b.addEventListener('click',()=>{

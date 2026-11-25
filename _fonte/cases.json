@@ -1,0 +1,1060 @@
+{
+ "cases": [
+  {
+   "slug": "virada-de-chave",
+   "title": "Virada de Chave",
+   "client": "C2B Incorporadora",
+   "cat": "Campanha",
+   "year": "2026",
+   "scope": "Conceito, KV, estande, digital e impressos",
+   "desc": "Campanha da C2B Incorporadora para a Expovale Construmóbil 2026: Virada de Chave, aqui você consegue.",
+   "cover": "img/virada26-capa.webp",
+   "hero": "img/cases/virada-de-chave/estande.webp",
+   "hero_alt": "Estande da C2B na Expovale 2026 com a parede da Virada de Chave e a equipe atendendo visitantes",
+   "lead": "Na Expovale 2026, a C2B não queria só mostrar apartamentos. Queria provar que a casa própria está ao alcance. A campanha virou experiência: quatro portas, três tentativas e uma chave na mão de cada visitante.",
+   "cols": [
+    [
+     "O desafio",
+     "Transformar condições especiais de compra em algo que o público sentisse na pele, no meio de uma feira cheia de estandes disputando atenção."
+    ],
+    [
+     "A ideia",
+     "Virada de Chave, aqui você consegue. Um tabelão de unidades selecionadas em cinco empreendimentos, com entrada facilitada, e um jogo no estande: quem abria a porta certa ganhava um brinde."
+    ],
+    [
+     "O que entregamos",
+     "Conceito, KV, parede do estande, adesivos das portas, painéis dos empreendimentos, flyer, regulamento, leque, crachá, camisetas, convites, carrossel comercial, vídeos para TV e LED, spot de rádio e Reels."
+    ]
+   ],
+   "tags": [
+    "Conceito",
+    "KV",
+    "Estande",
+    "Digital",
+    "Impressos"
+   ],
+   "blocks": [
+    {
+     "t": "duo",
+     "items": [
+      {
+       "src": "img/cases/virada-de-chave/porta-amarela.webp",
+       "cap": "Visitantes testando a chave na porta amarela"
+      },
+      {
+       "src": "img/cases/virada-de-chave/porta-verde.webp",
+       "cap": "Três tentativas para abrir a porta certa"
+      }
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/virada-de-chave/kv.webp",
+     "alt": "KV da campanha Virada de Chave"
+    },
+    {
+     "t": "track",
+     "lbl": "Desdobramento",
+     "items": [
+      "img/cases/virada-de-chave/kv-vertical.webp",
+      "img/cases/virada-de-chave/convite.webp",
+      "img/cases/virada-de-chave/card-comercial.webp",
+      "img/cases/virada-de-chave/leque.webp",
+      "img/cases/virada-de-chave/regras.webp",
+      "img/cases/virada-de-chave/painel-3d.webp"
+     ]
+    },
+    {
+     "t": "reels",
+     "lbl": "Vídeo",
+     "h": "Direto do estande",
+     "txt": "Conteúdo gravado na feira para levar as condições a quem ainda não tinha passado por lá.",
+     "items": [
+      "video/cases/virada-de-chave/reels.mp4"
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/virada-de-chave/maquete.webp",
+     "alt": "Corretor com a camiseta da campanha apresentando a maquete",
+     "cap": "A campanha também vestiu a equipe comercial"
+    },
+    {
+     "t": "quote",
+     "text": "Uma feira inteira dizendo a mesma coisa: aqui você consegue"
+    }
+   ]
+  },
+  {
+   "slug": "nadine",
+   "title": "Delegada Nadine",
+   "client": "Delegada Nadine",
+   "cat": "Política",
+   "year": "2026",
+   "scope": "Identidade, estratégia digital, vídeo e tráfego",
+   "desc": "Reeleição da Delegada Nadine em 2026: 55.223 votos e a deputada mais votada do partido.",
+   "cover": "img/nadine-capa.webp",
+   "hero": "img/cases/nadine/peca-mae.webp",
+   "hero_alt": "Peça-mãe da campanha da Delegada Nadine, número 55444",
+   "lead": "Na reeleição da Delegada Nadine, o objetivo nunca foi juntar seguidores. Foi construir uma audiência engajada, que se identificasse com ela e chegasse até a urna.",
+   "cols": [
+    [
+     "O desafio",
+     "Ampliar a presença de uma deputada já conhecida, falando com o público certo em todo o Rio Grande do Sul, e transformar alcance em voto."
+    ],
+    [
+     "A estratégia",
+     "Uma estratégia digital baseada em dados e território, com vídeos sobre trajetória, entregas do mandato e as bandeiras de segurança pública, proteção das mulheres e dos animais."
+    ],
+    [
+     "O que entregamos",
+     "Identidade visual com o slogan Servir de verdade, redes sociais, tráfego pago, roteiros, gravações em estúdio e externas, motion, GCs e jingle."
+    ]
+   ],
+   "tags": [
+    "Identidade",
+    "Social",
+    "Tráfego",
+    "Vídeo",
+    "Jingle"
+   ],
+   "blocks": [
+    {
+     "t": "stats",
+     "lbl": "Resultado",
+     "items": [
+      {
+       "n": "55.223",
+       "l": "votos em 2026, reeleita como a mais votada do partido"
+      },
+      {
+       "n": "+35",
+       "u": "%",
+       "l": "de votos em relação a 2022"
+      },
+      {
+       "n": "10,4",
+       "u": "mi",
+       "l": "de visualizações durante a campanha"
+      }
+     ]
+    },
+    {
+     "t": "trio",
+     "items": [
+      "img/cases/nadine/oficial.webp",
+      "img/cases/nadine/carrossel-1.webp",
+      "img/cases/nadine/carrossel-3.webp"
+     ]
+    },
+    {
+     "t": "reels",
+     "lbl": "Vídeo",
+     "h": "Trajetória, entregas e bandeiras",
+     "txt": "Gravações em estúdio e na rua, pensadas para cada etapa da campanha.",
+     "items": [
+      "video/cases/nadine/estudio.mp4",
+      "video/cases/nadine/jingle.mp4",
+      "video/cases/nadine/externa.mp4"
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/nadine/logo.webp",
+     "alt": "Logotipo Delegada Nadine 55444 com o slogan Servir de verdade"
+    },
+    {
+     "t": "title",
+     "lbl": "Do alcance ao voto",
+     "h": "Dados guiando cada decisão",
+     "text": "Votos em 463 municípios, contra 439 em 2022, e crescimento em 315 cidades."
+    },
+    {
+     "t": "track",
+     "lbl": "Os números",
+     "items": [
+      "img/cases/nadine/dados-1.webp",
+      "img/cases/nadine/dados-3.webp",
+      "img/cases/nadine/dados-4.webp",
+      "img/cases/nadine/dados-5.webp",
+      "img/cases/nadine/dados-6.webp",
+      "img/cases/nadine/dados-7.webp"
+     ]
+    },
+    {
+     "t": "quote",
+     "text": "Menos achismo. Mais estratégia"
+    }
+   ]
+  },
+  {
+   "slug": "cvc",
+   "title": "Inauguração CVC",
+   "client": "CVC Lajeado Shopping",
+   "cat": "Campanha",
+   "year": "2025",
+   "scope": "Roteiro, vídeos e digital",
+   "desc": "Campanha de inauguração da loja CVC no Lajeado Shopping: um passeio comum que vira vontade de viajar.",
+   "cover": "img/cvc-capa.webp",
+   "hero": "img/cvc-capa.webp",
+   "hero_alt": "Loja CVC inaugurada no Lajeado Shopping",
+   "lead": "Para anunciar a nova loja da CVC no Lajeado Shopping, transformamos um passeio comum em vontade de viajar. Na cancela, um aviso de aeroporto. No carro, a bolsa vira mala. No espelho, a constatação: acho que estou precisando de férias.",
+   "cols": [
+    [
+     "O desafio",
+     "Fazer de uma novidade local algo relevante tanto para quem circula pelo shopping quanto para quem está nas redes sociais."
+    ],
+    [
+     "O objetivo",
+     "Gerar tráfego qualificado para a loja e estimular o contato pelo WhatsApp, despertando o desejo de viajar até em quem não estava planejando."
+    ],
+    [
+     "O que entregamos",
+     "Roteiro e produção de três vídeos verticais, narrativo, dinâmico e selfie, além do making of e das peças de divulgação das ofertas de inauguração."
+    ]
+   ],
+   "tags": [
+    "Roteiro",
+    "Vídeo",
+    "Reels",
+    "Digital"
+   ],
+   "blocks": [
+    {
+     "t": "reels",
+     "lbl": "Vídeos",
+     "h": "Três formatos, uma vontade: viajar",
+     "txt": "Narrativo, dinâmico e selfie, cada um pensado para um momento do feed.",
+     "items": [
+      "video/cases/cvc/dinamico.mp4",
+      "video/cases/cvc/geral.mp4",
+      "video/cases/cvc/selfie.mp4"
+     ]
+    },
+    {
+     "t": "duo",
+     "off": true,
+     "items": [
+      {
+       "src": "img/cases/cvc/equipe.webp",
+       "cap": "Equipe da loja nos bastidores da gravação"
+      },
+      {
+       "src": "video/cases/cvc/geral.webp",
+       "cap": "Cena do vídeo principal"
+      }
+     ]
+    },
+    {
+     "t": "quote",
+     "text": "Acho que estou precisando de férias"
+    }
+   ]
+  },
+  {
+   "slug": "pao-e-vinho",
+   "title": "Rota do Pão e Vinho",
+   "client": "AMAT",
+   "cat": "Branding",
+   "year": "2025",
+   "scope": "Identidade visual, slogan e apresentação",
+   "desc": "Identidade visual da Rota do Pão e Vinho, da AMAT, que liga a Serra Gaúcha ao Vale do Taquari.",
+   "cover": "img/paovinho-capa.webp",
+   "hero": "img/cases/pao-e-vinho/apres-01.webp",
+   "hero_alt": "Selo da Rota do Pão e Vinho sobre a estrada entre os vinhedos",
+   "lead": "Uma estrada que liga o pão da serra ao vinho do vale. A Rota do Pão e Vinho deixou de ser apenas um sonho e ganhou forma, com identidade visual, slogan e um posicionamento à altura da sua importância para a região.",
+   "cols": [
+    [
+     "A rota",
+     "Cerca de 60 quilômetros conectando Roca Sales, Encantado, Bento Gonçalves, Monte Belo do Sul, Santa Tereza, Muçum, Doutor Ricardo, Anta Gorda, Ilópolis e Vespasiano Corrêa."
+    ],
+    [
+     "A ideia",
+     "Um traço de gravura com a garrafa, a taça e o pão diante do caminho que serpenteia entre os morros. As cores vêm do trajeto: o marrom do trigo, o bordô do vinho e o verde da paisagem."
+    ],
+    [
+     "O impacto",
+     "Peça-chave do projeto, a apresentação em vídeo foi exibida na reunião que tratou da inclusão dos trechos no Funrigs, fundo do Plano Rio Grande, para a conclusão do asfalto."
+    ]
+   ],
+   "tags": [
+    "Identidade",
+    "Slogan",
+    "Apresentação",
+    "Vídeo"
+   ],
+   "blocks": [
+    {
+     "t": "duo",
+     "off": false,
+     "items": [
+      "img/cases/pao-e-vinho/vetor-2.webp",
+      "img/cases/pao-e-vinho/vetor-1.webp"
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/pao-e-vinho/id-2.webp",
+     "alt": "Paleta de cores da Rota do Pão e Vinho"
+    },
+    {
+     "t": "duo",
+     "off": false,
+     "items": [
+      "img/cases/pao-e-vinho/id-3.webp",
+      "img/cases/pao-e-vinho/id-4.webp"
+     ]
+    },
+    {
+     "t": "track",
+     "lbl": "Padrões",
+     "items": [
+      "img/cases/pao-e-vinho/vetor-5.webp",
+      "img/cases/pao-e-vinho/vetor-6.webp",
+      "img/cases/pao-e-vinho/vetor-7.webp",
+      "img/cases/pao-e-vinho/vetor-8.webp"
+     ]
+    },
+    {
+     "t": "title",
+     "lbl": "Apresentação",
+     "h": "Cidade por cidade, o caminho inteiro",
+     "text": "A apresentação percorre os municípios da rota e mostra por que a pavimentação importa para turismo, economia e resiliência depois das enchentes."
+    },
+    {
+     "t": "track",
+     "lbl": "Apresentação",
+     "items": [
+      "img/cases/pao-e-vinho/apres-02.webp",
+      "img/cases/pao-e-vinho/apres-03.webp",
+      "img/cases/pao-e-vinho/apres-06.webp",
+      "img/cases/pao-e-vinho/apres-07.webp",
+      "img/cases/pao-e-vinho/apres-08.webp",
+      "img/cases/pao-e-vinho/apres-11.webp",
+      "img/cases/pao-e-vinho/apres-12.webp",
+      "img/cases/pao-e-vinho/apres-13.webp",
+      "img/cases/pao-e-vinho/apres-14.webp"
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/pao-e-vinho/apres-17.webp",
+     "alt": "Assinatura: pavimentar o progresso, celebrar a tradição"
+    },
+    {
+     "t": "quote",
+     "text": "Pavimentar o progresso, celebrar a tradição"
+    }
+   ]
+  },
+  {
+   "slug": "cron-mama",
+   "title": "Centro de Referência da Mama",
+   "client": "CRON, Centro de Oncologia",
+   "cat": "Campanha",
+   "year": "2026",
+   "scope": "Marca, campanha, digital, impressos e mídia",
+   "desc": "Marca e campanha de lançamento do Centro de Referência da Mama do CRON: o tempo conta.",
+   "cover": "img/cronmama-capa.webp",
+   "hero": "img/cases/cron-mama/folder-1.webp",
+   "hero_alt": "Peça da campanha: o tempo conta, descobrir cedo faz toda a diferença",
+   "lead": "O CRON ganhou um novo serviço e precisava de uma marca à altura. Criamos a identidade e uma campanha construída em torno de uma verdade simples: o tempo conta, e descobrir cedo faz toda a diferença.",
+   "cols": [
+    [
+     "O desafio",
+     "Apresentar o Centro de Referência da Mama, com estrutura de diagnóstico e acompanhamento, e falar de prevenção sem medo, com acolhimento."
+    ],
+    [
+     "A ideia",
+     "O tempo conta. Uma campanha para mulheres a partir dos 40 anos, com foco no diagnóstico precoce e no cuidado especializado."
+    ],
+    [
+     "O que entregamos",
+     "Marca, KV, ensaio fotográfico, anúncios de jornal e revista, folder, carrossel, parede interna, camisetas, telas de LED na cidade, TVs internas e conteúdo para redes."
+    ]
+   ],
+   "tags": [
+    "Marca",
+    "KV",
+    "Ensaio",
+    "Impressos",
+    "LED",
+    "Social"
+   ],
+   "blocks": [
+    {
+     "t": "duo",
+     "items": [
+      {
+       "src": "img/cases/cron-mama/kv.webp",
+       "cap": "KV da campanha"
+      },
+      {
+       "src": "img/cases/cron-mama/card-medica.webp",
+       "cap": "Especialista apresentando o diagnóstico precoce"
+      }
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/cron-mama/parede.webp",
+     "alt": "Parede interna do CRON com a campanha",
+     "cap": "Parede do Centro de Referência da Mama"
+    },
+    {
+     "t": "feed",
+     "lbl": "Redes sociais",
+     "h": "Informação que salva tempo",
+     "txt": "Carrosséis com dados, orientação e o convite para agendar a consulta.",
+     "perfil": "cron.oncologia",
+     "items": [
+      "img/cases/cron-mama/carrossel-1.webp",
+      "img/cases/cron-mama/carrossel-2.webp",
+      "img/cases/cron-mama/carrossel-3.webp",
+      "img/cases/cron-mama/carrossel-4.webp",
+      "img/cases/cron-mama/carrossel-5.webp",
+      "img/cases/cron-mama/card-ultrassom.webp"
+     ]
+    },
+    {
+     "t": "duo",
+     "off": false,
+     "items": [
+      {
+       "src": "img/cases/cron-mama/ensaio-1.webp",
+       "cap": "Ensaio da campanha"
+      },
+      {
+       "src": "img/cases/cron-mama/ensaio-4.webp",
+       "cap": "Ensaio da campanha"
+      }
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/cron-mama/folder-2.webp",
+     "alt": "Folder do Centro de Referência da Mama aberto"
+    },
+    {
+     "t": "video",
+     "src": "video/cases/cron-mama/tvs.mp4",
+     "ar": "16/9"
+    },
+    {
+     "t": "duo",
+     "off": false,
+     "items": [
+      {
+       "src": "video/cases/cron-mama/led-faleiro.mp4",
+       "cap": "Tela de LED na cidade"
+      },
+      {
+       "src": "img/cases/cron-mama/card-ultrassom.webp",
+       "cap": "Estrutura de diagnóstico com novo ultrassom"
+      }
+     ]
+    },
+    {
+     "t": "quote",
+     "text": "O tempo conta. Descobrir cedo faz toda a diferença"
+    }
+   ]
+  },
+  {
+   "slug": "cron-movimento",
+   "title": "Viva Plenamente em Movimento",
+   "client": "CRON, Centro de Oncologia",
+   "cat": "Evento",
+   "year": "2024 a 2026",
+   "scope": "Assinatura, eventos, digital e impressos",
+   "desc": "Viva Plenamente em Movimento: o CRON levado para as quadras de beach tennis e as corridas de rua.",
+   "cover": "img/cron-capa.webp",
+   "hero": "img/cron-wide.webp",
+   "hero_alt": "Atleta de beach tennis no torneio do CRON",
+   "lead": "O CRON sempre foi reconhecido pelo tratamento do câncer, e isso prendia a marca ao momento da doença. Para falar de prevenção de um jeito mais leve e inspirador, levamos o CRON para onde as pessoas se movimentam.",
+   "cols": [
+    [
+     "A ideia",
+     "Viva Plenamente em Movimento, uma extensão da assinatura institucional Viva Plenamente, aplicada a ações de saúde por meio do esporte e da atividade física."
+    ],
+    [
+     "Onde ela vive",
+     "Nos torneios de beach tennis da Copa CRON, que chegou à 6ª edição, e na parceria com o grupo Vamo pro Corre, que reúne gente para caminhar e correr."
+    ],
+    [
+     "O resultado",
+     "O CRON passou a ser percebido também pela prevenção e a falar com públicos que ainda não conheciam a instituição, com mais engajamento nos eventos e nas redes."
+    ]
+   ],
+   "tags": [
+    "Assinatura",
+    "Eventos",
+    "Social",
+    "Impressos"
+   ],
+   "blocks": [
+    {
+     "t": "full",
+     "src": "img/cases/cron-movimento/assinatura.webp",
+     "alt": "Assinatura Viva Plenamente em Movimento"
+    },
+    {
+     "t": "trio",
+     "items": [
+      {
+       "src": "img/cases/cron-movimento/banner-quadra.webp",
+       "cap": "A assinatura na quadra"
+      },
+      {
+       "src": "img/cases/cron-movimento/bandeira-noite.webp",
+       "cap": "Jogos noturnos da Copa CRON"
+      },
+      {
+       "src": "img/cases/cron-movimento/jogador.webp",
+       "cap": "6º Aberto Copa CRON"
+      }
+     ]
+    },
+    {
+     "t": "stats",
+     "lbl": "6ª Copa CRON",
+     "items": [
+      {
+       "n": "+400",
+       "l": "inscritos no 6º Aberto Copa CRON Clube Comercial, em 2026"
+      },
+      {
+       "n": "6",
+       "u": "ª",
+       "l": "edição do torneio de beach tennis"
+      }
+     ]
+    },
+    {
+     "t": "track",
+     "lbl": "Desdobramento",
+     "items": [
+      "img/cases/cron-movimento/kv-copa.webp",
+      "img/cases/cron-movimento/inscritos.webp",
+      "img/cases/cron-movimento/drinks.webp",
+      "img/cases/cron-movimento/corre.webp",
+      "img/cases/cron-movimento/placas.webp"
+     ]
+    },
+    {
+     "t": "reels",
+     "lbl": "Vídeo",
+     "h": "Do saque ao pódio",
+     "items": [
+      "video/cases/cron-movimento/video-copa.mp4"
+     ]
+    },
+    {
+     "t": "duo",
+     "items": [
+      {
+       "src": "img/cases/cron-movimento/quadra-2024.webp",
+       "cap": "Torneio de beach tennis, 2024"
+      },
+      {
+       "src": "img/cases/cron-movimento/atleta-2024.webp",
+       "cap": "Placas da marca na arena"
+      }
+     ]
+    },
+    {
+     "t": "quote",
+     "text": "Saúde em todas as fases, inclusive em movimento"
+    }
+   ]
+  },
+  {
+   "slug": "maharo",
+   "title": "Identidade Maharo",
+   "client": "Maharo Móveis",
+   "cat": "Branding",
+   "year": "2024",
+   "scope": "Rebranding, slogan e aplicações",
+   "desc": "Rebranding da Maharo Móveis, marcenaria de alto padrão: Maharo, móveis para sempre.",
+   "cover": "img/maharo-capa.webp",
+   "hero": "img/maharo-capa.webp",
+   "hero_alt": "Papelaria da marca Maharo",
+   "lead": "Mais de 15 anos de marcenaria de alto padrão pediam uma marca à altura. Preservamos o ícone e a inicial que o mercado já reconhecia e redesenhamos o resto.",
+   "cols": [
+    [
+     "O desafio",
+     "Valorizar a marca e a identidade de um negócio de móveis sob medida com acabamento em laca, voltado a um público exigente."
+    ],
+    [
+     "A ideia",
+     "Sofisticação, modernidade e exclusividade. Tipografia sem serifa, cantos arredondados, um bordô mais firme e o slogan Maharo, móveis para sempre."
+    ],
+    [
+     "O que entregamos",
+     "Marca, manual de identidade, padrão gráfico, papelaria, uniformes, boné, caneca térmica, placa de obra, adesivação de veículos e redes sociais."
+    ]
+   ],
+   "tags": [
+    "Rebranding",
+    "Slogan",
+    "Papelaria",
+    "Social"
+   ],
+   "blocks": [
+    {
+     "t": "full",
+     "src": "img/cases/maharo/proposta-21.webp",
+     "alt": "Antes e depois da marca Maharo",
+     "cap": "Antes e depois"
+    },
+    {
+     "t": "duo",
+     "off": false,
+     "items": [
+      "img/cases/maharo/proposta-17.webp",
+      "img/cases/maharo/proposta-18.webp"
+     ]
+    },
+    {
+     "t": "trio",
+     "items": [
+      "img/cases/maharo/proposta-24.webp",
+      "img/cases/maharo/proposta-25.webp",
+      "img/cases/maharo/proposta-26.webp"
+     ]
+    },
+    {
+     "t": "track",
+     "lbl": "Aplicações",
+     "items": [
+      "img/cases/maharo/proposta-35.webp",
+      "img/cases/maharo/proposta-36.webp",
+      "img/cases/maharo/proposta-37.webp",
+      "img/cases/maharo/proposta-38.webp"
+     ]
+    },
+    {
+     "t": "feed",
+     "lbl": "Redes sociais",
+     "h": "A nova marca no feed",
+     "perfil": "maharomoveis",
+     "items": [
+      "img/cases/maharo/feed-1.webp",
+      "img/cases/maharo/feed-2.webp",
+      "img/cases/maharo/feed-3.webp",
+      "img/cases/maharo/feed-4.webp",
+      "img/cases/maharo/feed-5.webp"
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/maharo/miv-2.webp",
+     "alt": "Manual de identidade visual da Maharo"
+    },
+    {
+     "t": "quote",
+     "text": "Maharo, móveis para sempre"
+    }
+   ]
+  },
+  {
+   "slug": "lucchese",
+   "title": "Roberto Lucchese",
+   "client": "Roberto Lucchese",
+   "cat": "Política",
+   "year": "2026",
+   "scope": "Identidade, impressos, mídia e digital",
+   "desc": "Identidade e campanha de Roberto Lucchese, deputado estadual 15386: coragem que constrói.",
+   "cover": "img/lucchese-capa.webp",
+   "hero": "img/cases/lucchese/card-wide.webp",
+   "hero_alt": "Roberto Lucchese, deputado estadual 15386",
+   "lead": "Para Roberto Lucchese, construímos uma identidade em que o número é o protagonista, legível em qualquer formato e a qualquer distância. Coragem que constrói amarrou a narrativa do Vale ao Estado.",
+   "cols": [
+    [
+     "A identidade",
+     "O azul traz sobriedade e segurança, as cores do Rio Grande reforçam as raízes e o número 15386 ganha destaque em tudo, da bandeira ao santinho."
+    ],
+    [
+     "A campanha",
+     "Coragem que constrói como conceito e Unindo nosso Vale como linha regional, com peças personalizadas para cada cidade."
+    ],
+    [
+     "O que entregamos",
+     "Cerca de 30 anúncios de jornal, santinhos, colinhas colecionáveis por cidade, wind banners, bandeiras, fachadas, perfurites, cards digitais e conteúdo diário."
+    ]
+   ],
+   "tags": [
+    "Identidade",
+    "Impressos",
+    "Jornal",
+    "Social"
+   ],
+   "blocks": [
+    {
+     "t": "stats",
+     "lbl": "Resultado",
+     "items": [
+      {
+       "n": "71.720",
+       "l": "votos na eleição de 2026"
+      },
+      {
+       "n": "344",
+       "l": "municípios com votos"
+      }
+     ]
+    },
+    {
+     "t": "trio",
+     "items": [
+      {
+       "src": "img/cases/lucchese/bandeiraco-1.webp",
+       "cap": "Bandeiraço, setembro de 2026"
+      },
+      {
+       "src": "img/cases/lucchese/desfile.webp",
+       "cap": "Desfile de 20 de setembro"
+      },
+      {
+       "src": "img/cases/lucchese/bandeiraco-2.webp",
+       "cap": "A marca nas ruas"
+      }
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/lucchese/bandeira.webp",
+     "alt": "Bandeira Lucchese 15386"
+    },
+    {
+     "t": "track",
+     "lbl": "Desdobramento",
+     "items": [
+      "img/cases/lucchese/oficial.webp",
+      "img/cases/lucchese/santinho.webp",
+      "img/cases/lucchese/colinha.webp",
+      "img/cases/lucchese/id-3.webp",
+      "img/cases/lucchese/id-4.webp",
+      "img/cases/lucchese/id-5.webp"
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/lucchese/fachada.webp",
+     "alt": "Fachada do comitê central"
+    },
+    {
+     "t": "quote",
+     "text": "Coragem que constrói"
+    }
+   ]
+  },
+  {
+   "slug": "a-vida-e-boa",
+   "title": "A vida é boa no meu C2B",
+   "client": "C2B Incorporadora",
+   "cat": "Branding",
+   "year": "2024 e 2025",
+   "scope": "Campanha institucional e identidade",
+   "desc": "Campanha institucional da C2B Incorporadora: A vida é boa no meu C2B.",
+   "cover": "img/avidaeboa-capa.webp",
+   "hero": "img/avidaeboa-capa.webp",
+   "hero_alt": "Outdoor A vida é boa no meu C2B instalado na rua",
+   "lead": "A C2B entregava empreendimentos com diferenciais nas áreas comuns, mas ainda era pouco reconhecida como incorporadora. Criamos uma assinatura para falar menos de metro quadrado e mais de vida acontecendo.",
+   "cols": [
+    [
+     "O desafio",
+     "A identidade da C2B se diluía nas campanhas dos próprios empreendimentos ou era confundida com a imobiliária parceira, com perda de reconhecimento e autoridade."
+    ],
+    [
+     "A ideia",
+     "A vida é boa no meu C2B. Padronizamos a identidade, criamos uma linguagem própria e destacamos o que todos os empreendimentos têm em comum: lazer, localização e praticidade."
+    ],
+    [
+     "O resultado",
+     "O novo posicionamento consolidou a C2B como incorporadora, com mais lembrança entre os clientes, mais visibilidade e mais engajamento nas redes, no ano em que a empresa completou 15 anos."
+    ]
+   ],
+   "tags": [
+    "Posicionamento",
+    "Lettering",
+    "OOH",
+    "Social",
+    "LED"
+   ],
+   "blocks": [
+    {
+     "t": "duo",
+     "off": false,
+     "items": [
+      "img/cases/a-vida-e-boa/lettering.webp",
+      "img/cases/a-vida-e-boa/lettering-2.webp"
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/a-vida-e-boa/deck-19.webp",
+     "alt": "Peça da campanha com criança no balanço"
+    },
+    {
+     "t": "track",
+     "lbl": "Identidade",
+     "items": [
+      "img/cases/a-vida-e-boa/deck-13.webp",
+      "img/cases/a-vida-e-boa/deck-24.webp",
+      "img/cases/a-vida-e-boa/deck-26.webp",
+      "img/cases/a-vida-e-boa/deck-29.webp",
+      "img/cases/a-vida-e-boa/deck-15.webp",
+      "img/cases/a-vida-e-boa/deck-23.webp"
+     ]
+    },
+    {
+     "t": "duo",
+     "items": [
+      {
+       "src": "img/cases/a-vida-e-boa/deck-21.webp",
+       "cap": "Mídia exterior"
+      },
+      {
+       "src": "img/cases/a-vida-e-boa/deck-22.webp",
+       "cap": "Lona de obra"
+      }
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/a-vida-e-boa/lona.webp",
+     "alt": "Lona A vida é boa no meu C2B"
+    },
+    {
+     "t": "duo",
+     "off": false,
+     "items": [
+      {
+       "src": "img/cases/a-vida-e-boa/carrossel.webp",
+       "cap": "Motivos para morar num C2B"
+      },
+      {
+       "src": "video/cases/a-vida-e-boa/tela-adm.mp4",
+       "cap": "Animação para tela de LED"
+      }
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/a-vida-e-boa/busdoor.webp",
+     "alt": "Busdoor da campanha"
+    },
+    {
+     "t": "quote",
+     "text": "A vida é boa no meu C2B"
+    }
+   ]
+  },
+  {
+   "slug": "alaf",
+   "title": "O Time do Vale",
+   "client": "ALAF",
+   "cat": "Branding",
+   "year": "2025",
+   "scope": "Identidade da temporada, digital e cobertura",
+   "desc": "ALAF, o time do Vale: identidade da temporada 2025, sócio torcedor e cobertura dos jogos.",
+   "cover": "img/alaf-capa.webp",
+   "hero": "img/cases/alaf/apres-04.webp",
+   "hero_alt": "Assinatura ALAF, o time do vale",
+   "lead": "A ALAF é o único time de futsal do Vale do Taquari, e isso virou posicionamento. O Time do Vale transformou o orgulho regional em assinatura e aproximou o clube da sua comunidade.",
+   "cols": [
+    [
+     "A ideia",
+     "Posicionar o clube como símbolo da identidade regional e do espírito aguerrido do Vale, com uma assinatura em letra pincelada e o mapa do Vale como grafismo."
+    ],
+    [
+     "A identidade",
+     "Toda a identidade foi renovada para a temporada 2025, inspirada nas cores de Lajeado e em elementos que valorizam o Vale do Taquari."
+    ],
+    [
+     "O que entregamos",
+     "Identidade, cards de contratação, pré-jogo, gols e resultados, patrocínio, programa Sócio do Vale, camisetas, banners e a cobertura das partidas em tempo real."
+    ]
+   ],
+   "tags": [
+    "Identidade",
+    "Social",
+    "Sócio torcedor",
+    "Cobertura"
+   ],
+   "blocks": [
+    {
+     "t": "full",
+     "src": "img/cases/alaf/comemoracao.webp",
+     "alt": "Jogadores da ALAF comemorando",
+     "cap": "Foto: LFA",
+     "ar": "16/9"
+    },
+    {
+     "t": "track",
+     "lbl": "Temporada 2025",
+     "items": [
+      "img/cases/alaf/apres-06.webp",
+      "img/cases/alaf/apres-07.webp",
+      "img/cases/alaf/apres-08.webp",
+      "img/cases/alaf/apres-09.webp",
+      "img/cases/alaf/apres-10.webp"
+     ]
+    },
+    {
+     "t": "title",
+     "lbl": "Sócio do Vale",
+     "h": "Da quadra para a arquibancada",
+     "text": "Um programa de sócio torcedor com camisetas, planos e banners próprios."
+    },
+    {
+     "t": "trio",
+     "off": false,
+     "items": [
+      "img/cases/alaf/camiseta-3.webp",
+      "img/cases/alaf/banner-socio.webp",
+      "img/cases/alaf/planos.webp"
+     ]
+    },
+    {
+     "t": "reels",
+     "lbl": "Cobertura",
+     "h": "Gol, em tempo real",
+     "txt": "Atualizações rápidas e precisas durante as partidas.",
+     "items": [
+      "img/cases/alaf/manto.webp",
+      "video/cases/alaf/gols.mp4"
+     ]
+    },
+    {
+     "t": "duo",
+     "items": [
+      {
+       "src": "img/cases/alaf/jogadores.webp",
+       "cap": "Foto: LFA"
+      },
+      {
+       "src": "img/cases/alaf/criancas.webp",
+       "cap": "Foto: LFA"
+      }
+     ]
+    },
+    {
+     "t": "quote",
+     "text": "O único time do Vale, com o Vale inteiro junto"
+    }
+   ]
+  },
+  {
+   "slug": "expomucum",
+   "title": "A Feira da Reconstrução",
+   "client": "CDL Muçum",
+   "cat": "Evento",
+   "year": "2025",
+   "scope": "Tema, identidade, digital e impressos",
+   "desc": "5ª ExpoMuçum, a Feira da Reconstrução: identidade, comunicação e redes sociais de um evento de retomada.",
+   "cover": "img/mucum-capa.webp",
+   "hero": "img/cases/expomucum/abertura.webp",
+   "hero_alt": "Abertura da 5ª ExpoMuçum no palco",
+   "lead": "Depois das maiores enchentes da história do Rio Grande do Sul, Muçum voltou a se encontrar na sua feira. A campanha comunicou muito mais do que um evento: força, retomada e esperança.",
+   "cols": [
+    [
+     "A ideia",
+     "Propusemos o tema A Feira da Reconstrução e redesenhamos o 5 da marca como um trabalho artesanal em madeira, lembrando as mãos solidárias que ajudaram a cidade a se reerguer."
+    ],
+    [
+     "A comunicação",
+     "O sentimento coletivo de superação virou uma experiência afetiva: o reencontro das pessoas com o riso, com a cidade e com a capacidade de seguir em frente."
+    ],
+    [
+     "O que entregamos",
+     "Tema, identidade, cards de atrações e patrocinadores, programação, stories, telão, pórtico, saia de palco, testeiras, crachás, flyer, convites, anúncios e as redes sociais com cobertura em tempo real."
+    ]
+   ],
+   "tags": [
+    "Tema",
+    "Identidade",
+    "Social",
+    "Impressos",
+    "Cobertura"
+   ],
+   "blocks": [
+    {
+     "t": "stats",
+     "lbl": "Resultado nas redes",
+     "items": [
+      {
+       "n": "+300",
+       "u": "mil",
+       "l": "pessoas alcançadas pelo Instagram da ExpoMuçum"
+      },
+      {
+       "n": "1,7",
+       "u": "mi",
+       "l": "de impressões no período de divulgação"
+      },
+      {
+       "n": "+24",
+       "u": "mil",
+       "l": "interações com os conteúdos publicados"
+      }
+     ]
+    },
+    {
+     "t": "duo",
+     "off": false,
+     "items": [
+      "img/cases/expomucum/logo.webp",
+      "img/cases/expomucum/kv.webp"
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/expomucum/portico.webp",
+     "alt": "Pórtico da feira",
+     "cap": "Pórtico de entrada"
+    },
+    {
+     "t": "feed",
+     "lbl": "Redes sociais",
+     "h": "Divulgação antes, cobertura durante",
+     "perfil": "expomucum",
+     "items": [
+      "img/cases/expomucum/card-tema.webp",
+      "img/cases/expomucum/programacao.webp",
+      "img/cases/expomucum/show.webp",
+      "img/cases/expomucum/kv.webp"
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/expomucum/publico-noite.webp",
+     "alt": "Público no show visto do palco"
+    },
+    {
+     "t": "duo",
+     "items": [
+      {
+       "src": "img/cases/expomucum/palco.webp",
+       "cap": "A identidade no telão do palco"
+      },
+      {
+       "src": "img/cases/expomucum/agroindustria.webp",
+       "cap": "Estandes da agroindústria com as testeiras"
+      }
+     ]
+    },
+    {
+     "t": "full",
+     "src": "img/cases/expomucum/publico-dia.webp",
+     "alt": "Público durante as atrações do dia"
+    },
+    {
+     "t": "quote",
+     "text": "Uma feira para reencontrar a cidade"
+    }
+   ]
+  }
+ ]
+}
