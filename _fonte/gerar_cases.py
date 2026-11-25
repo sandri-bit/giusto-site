@@ -123,8 +123,9 @@ TPL = '''<!doctype html>
 <title>{title} · Giusto Estratégia e Comunicação</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="https://giusto.ag/cases/{slug}">
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon.png?v=2">
+<link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
 <meta name="theme-color" content="#ffffff">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="pt_BR">
