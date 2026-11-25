@@ -24,6 +24,15 @@
 .card{cursor:default}
 .card .img .view,.feature [data-soon],.svc .ar{display:none!important}
 .svc{cursor:default}
+/* Central do Cliente (central.giusto.ag) */
+.pill .cc{display:flex;align-items:center;gap:7px;padding:9px 12px;margin-left:2px;border-radius:10px;border:1px solid rgba(255,255,255,.16);font-size:14px;color:#fff;white-space:nowrap;transition:background .2s,border-color .2s}
+.pill .cc:hover{background:rgba(255,255,255,.1);border-color:rgba(45,249,127,.6)}
+.pill .cc .lock{width:10px;height:8px;border-radius:2px;background:var(--green);position:relative;margin-top:4px}
+.pill .cc .lock::before{content:"";position:absolute;left:1.5px;bottom:6px;width:7px;height:6px;border:1.5px solid var(--green);border-bottom:0;border-radius:4px 4px 0 0;box-sizing:border-box}
+.pill .cc .short{display:none}
+@media (max-width:860px){.pill .cc .full{display:none}.pill .cc .short{display:inline}}
+.ai-card.wide .txt .cc-link{align-self:flex-start;margin-top:-8px;background:var(--green);color:var(--green-ink);font-weight:600;font-size:14px;padding:10px 16px;border-radius:10px;transition:transform .2s}
+.ai-card.wide .txt .cc-link:hover{transform:translateY(-1px)}
 </style>
 </head>
 <body>
@@ -394,6 +403,7 @@ footer a:hover{color:var(--ink)}
     <a href="#servicos">Serviços</a>
     <a href="#socios">Sócios</a>
   </nav>
+  <a class="cc" href="https://central.giusto.ag" target="_blank" rel="noopener"><span class="lock" aria-hidden="true"></span><span class="full">Central do Cliente</span><span class="short">Central</span></a>
   <a class="go" href="#contato">Contato</a>
 </div>
 
@@ -522,6 +532,7 @@ footer a:hover{color:var(--ink)}
           <div class="txt">
             <div><div class="k">Central do Cliente</div><h3>Tudo da sua marca em um só lugar</h3></div>
             <p>Um acesso exclusivo com os materiais de identidade, as peças aprovadas e os relatórios de acompanhamento. Disponível a qualquer hora, sem precisar pedir por e-mail.</p>
+            <a class="cc-link" href="https://central.giusto.ag" target="_blank" rel="noopener">Acessar a Central <span aria-hidden="true">↗</span></a>
           </div>
           <div class="hub" aria-hidden="true">
             <div class="hub-top"><span class="hub-dot"></span><span>Central do Cliente</span><span class="hub-user">Sua marca</span></div>
