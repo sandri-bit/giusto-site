@@ -143,6 +143,7 @@ TPL = '''<!doctype html>
 <link rel="stylesheet" href="case.css">
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
 <script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/eventos.js"></script>
 </head>
 <body>
 <div class="progress" aria-hidden="true"></div>
